@@ -13,16 +13,6 @@ body {
     background-position-x: center;
 }
 
-.container.carrusell img {
-    max-width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.container-hero {
-    background-color: chartreuse;
-}
-
 .jumbotron div {
     bottom: 0;
     text-align: center;
@@ -31,6 +21,10 @@ body {
 
 img {
     width: 100%;
+}
+
+#experiencia img {
+    height: 75%;
 }
 
 nav {
@@ -51,7 +45,7 @@ nav {
     background-color: #660066;
 }
 
-footer {
+.footer {
     text-align: center;
     font-size: 40pt;
     background-color: #660066;
@@ -61,4 +55,20 @@ footer {
 
 html {
     scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px) {
+    #sobre-mi {
+        display: none;
+    }
+    .sobre-mi {
+        display:none
+    }
+}
+#navbarNav {
+    float:right;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }
