@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url(../img/negro2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position-y: center;
+    color: #ffffff;
+    position: relative;
+    background-position-x: center;
+
+
+}
+
+.container.carrusell img {
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container-hero {
+    background-color: chartreuse;
+}
+
+.jumbotron .container {
+bottom: 0;
+position: absolute
+}
+
+img {
+    width: 100%;
+}
