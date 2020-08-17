@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap');
+body {
+    font-family: 'Oswald'
+}
+
 .jumbotron {
     background-image: url(../img/negro2.jpg);
     background-size: cover;
@@ -6,8 +11,6 @@
     color: #ffffff;
     position: relative;
     background-position-x: center;
-
-
 }
 
 .container.carrusell img {
@@ -20,14 +23,42 @@
     background-color: chartreuse;
 }
 
-.jumbotron .container {
-bottom: 0;
-position: absolute
+.jumbotron div {
+    bottom: 0;
+    text-align: center;
+    position: absolute;
 }
 
 img {
     width: 100%;
 }
-.nav {
-background-color: #660066;
+
+nav {
+    background-color: #660066;
+}
+
+.jumbotron hr {
+    background-color: #ffffff;
+    height: 0.25em;
+}
+
+.nombre {
+    font-size: 72pt;
+    font-weight: bold;
+}
+
+.work {
+    background-color: #660066;
+}
+
+footer {
+    text-align: center;
+    font-size: 40pt;
+    background-color: #660066;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
 }
